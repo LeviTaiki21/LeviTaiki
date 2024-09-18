@@ -1,0 +1,178 @@
+
+nav h1{
+    text-align: center;
+    font-size: 2rem;
+}
+main {
+    padding: 20px;  
+    background-image: url(images/new.jpg);
+    background-position: center;
+    background-size: cover; 
+    border-radius: 10px;
+}
+.logo{  
+    font-size: 24px;
+    font-weight: 600;  
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 10px#000000;
+    cursor: default;
+}
+.logo:hover{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 25px rgb(180, 172, 172), 0 0 25px rgb(0, 0, 0);
+}
+header {
+    background-image: url(images/new2.jpg);
+    background-position: center;
+    background-size: cover  ;
+    border-bottom: 1px solid #b17070;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+.nav ul li a {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 23px;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 25px rgb(231, 220, 220), 0 0 25px rgb(0, 0, 0);
+}
+.row {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    width: 180px;
+    height: 220px;
+    border: 1px solid #e2dada;
+    border-radius: 10px;
+    padding: 22px;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(images/images.jpg);
+    color: #ffffff;
+}
+.card2{
+    background-image: url(images/banggg.jpg);
+    color: #ffffff;
+} 
+
+.card3{
+    background-image: url(images/carr.jpg);   
+    color: #ffffff;
+}
+.card4{
+    background-image: url(images/chicc.jpg);  
+    color: #ffffff; 
+}
+.card5{
+    background-image: url(images/babboy.jpg); 
+    color: #ffffff;  
+}
+.card6{
+    background-image: url(images/ramen.jpg);  
+    color: #ffffff;
+}
+.card7{
+    background-image: url(images/pancit-palabok-noodle-dish-shrimp-260nw-2469097237.jpg);
+    color: #ffffff;  
+}
+.card8{
+    background-image: url(images/siniagga.jpg); 
+    color: #ffffff;  
+}
+.card9{
+    background-image: url(images/sadd.jpg);
+    color: #ffffff;
+}
+.card10{
+    background-image: url(images/top-view-tacos-with-shrimps_974629-123423.jpg);
+    color: #ffffff;
+}
+.card:hover{
+    transform: translateY(-10px);
+    animation-name: glow;
+    animation-duration: 2s;
+}
+.balot{
+    text-decoration: none;
+}
+.bangus{
+    text-decoration: none;
+}
+.carbonara{
+    text-decoration: none;
+}
+.chicken{
+    text-decoration: none;
+}
+.lechon{
+    text-decoration: none;
+}
+.lomi{
+    text-decoration: none;
+}
+.palabok{
+    text-decoration: none;
+}
+.sinigang{
+    text-decoration: none;
+}
+.salad{
+    text-decoration: none;
+}
+.taco{
+    text-decoration: none;
+}
+div h5{ 
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 0 0 10px #000000;
+}
+div p{
+    color: #ffffff;
+    text-shadow: 0 0 10px#000000;
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px rgb(255, 252, 52);}
+}
+a div h5 p{
+    opacity: 0.5;
+}
