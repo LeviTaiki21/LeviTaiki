@@ -1,0 +1,39 @@
+h1 , p{
+    text-align: center;
+}
+th{
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-collapse: collapse;
+    height: 50px;
+}
+table, td{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    height: 50px;
+    text-align: center;
+}
+body{
+    color:black ;
+}
+td{
+    color: black;
+}
+.TAB tr td{
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+header{
+    background-color: rgb(57, 98, 124);
+}
+main{
+    background-color: rgb(96, 173, 173);
+}
+p{
+    color: black;
+}
+h1{
+    color: black;
+}
