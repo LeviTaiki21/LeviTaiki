@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Your Cake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+        <ul>
+            <li><a href="dashboard.html">HOME</a> </li>
+        </ul>
+    </div>
+    </header>
+    <div class="container">
+        <h1>Customize Your Cake</h1>
+        <form id="cakeOrderForm" action="final.html">
+            <label for="customerName">Your Name:</label>
+            <input type="text" id="customerName" name="customerName" required>
+
+            <label for="customerName">Phone Number:</label>
+            <input type="text" id="PhoneNumber" name="PhoneNumber" required>
+
+            <label for="cakeFlavor">Cake Flavor:</label>
+            <select id="cakeFlavor" name="cakeFlavor" required>
+                <option value="vanilla">Vanilla</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="redVelvet">Red Velvet</option>
+                <option value="carrot">Coffee</option>
+                <option value="lemon">Ube</option>
+            </select>
+
+            <label for="cakeSize">Cake Size:</label>
+            <select id="cakeSize" name="cakeSize" required>
+                <option value="6">6 inches</option>
+                <option value="8">8 inches</option>
+                <option value="10">10 inches</option>
+                <option value="12">12 inches</option>
+            </select>
+
+            <label for="message">Personal Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message here..."></textarea>
+
+            <label for="pickUpDate">Pick-Up Date:</label>
+            <input type="date" id="pickUpDate" name="pickUpDate" required>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+</body>
+</html>
